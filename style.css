@@ -6,17 +6,19 @@ h1{
     font-size:50px;
 }
 
-.nameHilight{
+.orangeHilight{
     color:orange;
 }
 .halfWidth{
-    width:40%;
+    width:42%;
     float:left;
-    margin-left: 5%;
+    margin-left: 3%;
     padding-left:2%;
+   
 }
 .halfWidth img{
     width: 100%;
+    
 }
 .topBanner{
     background-image: url(images/top-banner.png);
@@ -24,6 +26,7 @@ h1{
 }
 section{
     height:500px;
+    padding:50px;
 }
 .linkButton{
     text-decoration:none;
@@ -32,4 +35,28 @@ section{
     border-radius: 5px;
     padding:10px 20px;
     font-weight:700;
+}
+.Experience-Area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height:60%;
+    border-radius: 5px;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(pink, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
